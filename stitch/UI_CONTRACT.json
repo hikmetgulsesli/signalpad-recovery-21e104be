@@ -1,0 +1,945 @@
+[
+  {
+    "screenId": "3c0d89b1a9c547cc8dbe6c384b16e10d",
+    "screenTitle": "Record Editor - SignalPad Recovery",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 171
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 175
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 179
+      },
+      {
+        "type": "link",
+        "label": "System Status",
+        "href": "#",
+        "line": 186
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 199
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 200
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 201
+      },
+      {
+        "type": "link",
+        "label": "System: Saved to local storage",
+        "href": "#",
+        "line": 291
+      },
+      {
+        "type": "link",
+        "label": "API Status: Online",
+        "href": "#",
+        "line": 292
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 211
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 212
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 214
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 277
+      },
+      {
+        "type": "button",
+        "label": "Record",
+        "line": 278
+      },
+      {
+        "type": "input",
+        "label": "Search...",
+        "inputType": "text",
+        "placeholder": "Search...",
+        "line": 208
+      },
+      {
+        "type": "input",
+        "label": "Enter record identifier...",
+        "inputType": "text",
+        "placeholder": "Enter record identifier...",
+        "line": 232
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 238
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 250
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 254
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 258
+      },
+      {
+        "type": "input",
+        "label": "textarea",
+        "inputType": "textarea",
+        "line": 268
+      },
+      {
+        "type": "form",
+        "label": "form",
+        "line": 228
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 171
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 175
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 179
+      },
+      {
+        "type": "link",
+        "label": "System Status",
+        "href": "#",
+        "line": 186
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 199
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 200
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 201
+      },
+      {
+        "type": "link",
+        "label": "System: Saved to local storage",
+        "href": "#",
+        "line": 291
+      },
+      {
+        "type": "link",
+        "label": "API Status: Online",
+        "href": "#",
+        "line": 292
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 211
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 212
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 214
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 277
+      },
+      {
+        "type": "button",
+        "label": "Record",
+        "line": 278
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Search...",
+        "inputType": "text",
+        "placeholder": "Search...",
+        "line": 208
+      },
+      {
+        "type": "input",
+        "label": "Enter record identifier...",
+        "inputType": "text",
+        "placeholder": "Enter record identifier...",
+        "line": 232
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 238
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 250
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 254
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 258
+      },
+      {
+        "type": "input",
+        "label": "textarea",
+        "inputType": "textarea",
+        "line": 268
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 22,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "fb1743864f4a42bea7c8c6119bddbb36",
+    "screenTitle": "Record Operations - SignalPad Recovery",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 123
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 127
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 131
+      },
+      {
+        "type": "link",
+        "label": "System Status",
+        "href": "#",
+        "line": 137
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 158
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 162
+      },
+      {
+        "type": "button",
+        "label": "Export",
+        "line": 177
+      },
+      {
+        "type": "button",
+        "label": "Filters",
+        "line": 181
+      },
+      {
+        "type": "button",
+        "label": "chevron_left",
+        "line": 231
+      },
+      {
+        "type": "button",
+        "label": "chevron_right",
+        "line": 232
+      },
+      {
+        "type": "button",
+        "label": "close",
+        "line": 322
+      },
+      {
+        "type": "button",
+        "label": "Re-Sync",
+        "line": 378
+      },
+      {
+        "type": "button",
+        "label": "Force Override",
+        "line": 381
+      },
+      {
+        "type": "input",
+        "label": "Search records (ID, Name, Status)...",
+        "inputType": "text",
+        "placeholder": "Search records (ID, Name, Status)...",
+        "line": 150
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 241
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 254
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 270
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 286
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 123
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 127
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 131
+      },
+      {
+        "type": "link",
+        "label": "System Status",
+        "href": "#",
+        "line": 137
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 158
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 162
+      },
+      {
+        "type": "button",
+        "label": "Export",
+        "line": 177
+      },
+      {
+        "type": "button",
+        "label": "Filters",
+        "line": 181
+      },
+      {
+        "type": "button",
+        "label": "chevron_left",
+        "line": 231
+      },
+      {
+        "type": "button",
+        "label": "chevron_right",
+        "line": 232
+      },
+      {
+        "type": "button",
+        "label": "close",
+        "line": 322
+      },
+      {
+        "type": "button",
+        "label": "Re-Sync",
+        "line": 378
+      },
+      {
+        "type": "button",
+        "label": "Force Override",
+        "line": 381
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Search records (ID, Name, Status)...",
+        "inputType": "text",
+        "placeholder": "Search records (ID, Name, Status)...",
+        "line": 150
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 241
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 254
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 270
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 286
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 19,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "148e66c262e14fc18d1f97a944a586c5",
+    "screenTitle": "Empty and Error Recovery - SignalPad Recovery",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 123
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 127
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 131
+      },
+      {
+        "type": "link",
+        "label": "System Status",
+        "href": "#",
+        "line": 137
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 150
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 151
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 152
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 161
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 164
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 168
+      },
+      {
+        "type": "button",
+        "label": "Retry Connection",
+        "line": 193
+      },
+      {
+        "type": "button",
+        "label": "Clear Local Cache",
+        "line": 197
+      },
+      {
+        "type": "button",
+        "label": "Bypass to Create First Record manually",
+        "line": 205
+      },
+      {
+        "type": "input",
+        "label": "Search...",
+        "inputType": "text",
+        "placeholder": "Search...",
+        "line": 158
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 123
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 127
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 131
+      },
+      {
+        "type": "link",
+        "label": "System Status",
+        "href": "#",
+        "line": 137
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 150
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 151
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 152
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 161
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 164
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 168
+      },
+      {
+        "type": "button",
+        "label": "Retry Connection",
+        "line": 193
+      },
+      {
+        "type": "button",
+        "label": "Clear Local Cache",
+        "line": 197
+      },
+      {
+        "type": "button",
+        "label": "Bypass to Create First Record manually",
+        "line": 205
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Search...",
+        "inputType": "text",
+        "placeholder": "Search...",
+        "line": 158
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 14,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "d70a62a0fac745309b3a02706d1cedd3",
+    "screenTitle": "Settings and Preferences - SignalPad Recovery",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 117
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 118
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 119
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 141
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 145
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 149
+      },
+      {
+        "type": "link",
+        "label": "System Status",
+        "href": "#",
+        "line": 155
+      },
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 122
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 124
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 125
+      },
+      {
+        "type": "button",
+        "label": "New Preset",
+        "line": 234
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 253
+      },
+      {
+        "type": "button",
+        "label": "delete",
+        "line": 254
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 262
+      },
+      {
+        "type": "button",
+        "label": "delete",
+        "line": 263
+      },
+      {
+        "type": "button",
+        "label": "Restore System Defaults",
+        "line": 271
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 275
+      },
+      {
+        "type": "button",
+        "label": "Save Preferences",
+        "line": 276
+      },
+      {
+        "type": "input",
+        "label": "Search...",
+        "inputType": "text",
+        "placeholder": "Search...",
+        "line": 112
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 180
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 191
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 209
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 218
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 117
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 118
+      },
+      {
+        "type": "link",
+        "label": "Settings",
+        "href": "#",
+        "line": 119
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 141
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 145
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 149
+      },
+      {
+        "type": "link",
+        "label": "System Status",
+        "href": "#",
+        "line": 155
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Create Record",
+        "line": 122
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 124
+      },
+      {
+        "type": "button",
+        "label": "help_outline",
+        "line": 125
+      },
+      {
+        "type": "button",
+        "label": "New Preset",
+        "line": 234
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 253
+      },
+      {
+        "type": "button",
+        "label": "delete",
+        "line": 254
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 262
+      },
+      {
+        "type": "button",
+        "label": "delete",
+        "line": 263
+      },
+      {
+        "type": "button",
+        "label": "Restore System Defaults",
+        "line": 271
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 275
+      },
+      {
+        "type": "button",
+        "label": "Save Preferences",
+        "line": 276
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Search...",
+        "inputType": "text",
+        "placeholder": "Search...",
+        "line": 112
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 180
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 191
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 209
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 218
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 23,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
