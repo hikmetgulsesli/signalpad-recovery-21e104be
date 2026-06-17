@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Record Editor - SignalPad Recovery</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-secondary-fixed-variant": "#38485d",
+                      "outline-variant": "#c6c6cd",
+                      "on-primary-container": "#7c839b",
+                      "primary-fixed-dim": "#bec6e0",
+                      "inverse-on-surface": "#eff1f3",
+                      "surface-container-low": "#f2f4f6",
+                      "outline": "#76777d",
+                      "surface-container-high": "#e6e8ea",
+                      "on-primary-fixed-variant": "#3f465c",
+                      "on-tertiary-fixed-variant": "#574425",
+                      "background": "#f7f9fb",
+                      "surface": "#f7f9fb",
+                      "error": "#ba1a1a",
+                      "on-background": "#191c1e",
+                      "tertiary-container": "#271901",
+                      "on-primary": "#ffffff",
+                      "tertiary": "#000000",
+                      "surface-variant": "#e0e3e5",
+                      "on-tertiary": "#ffffff",
+                      "surface-dim": "#d8dadc",
+                      "secondary": "#505f76",
+                      "inverse-surface": "#2d3133",
+                      "on-primary-fixed": "#131b2e",
+                      "secondary-fixed": "#d3e4fe",
+                      "surface-container": "#eceef0",
+                      "error-container": "#ffdad6",
+                      "tertiary-fixed": "#fcdeb5",
+                      "surface-container-highest": "#e0e3e5",
+                      "inverse-primary": "#bec6e0",
+                      "secondary-container": "#d0e1fb",
+                      "on-error": "#ffffff",
+                      "on-error-container": "#93000a",
+                      "tertiary-fixed-dim": "#dec29a",
+                      "primary": "#000000",
+                      "primary-fixed": "#dae2fd",
+                      "secondary-fixed-dim": "#b7c8e1",
+                      "on-tertiary-fixed": "#271901",
+                      "on-tertiary-container": "#98805d",
+                      "surface-tint": "#565e74",
+                      "surface-container-lowest": "#ffffff",
+                      "primary-container": "#131b2e",
+                      "on-surface-variant": "#45464d",
+                      "surface-bright": "#f7f9fb",
+                      "on-surface": "#191c1e",
+                      "on-secondary-fixed": "#0b1c30",
+                      "on-secondary": "#ffffff",
+                      "on-secondary-container": "#54647a"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "lg": "24px",
+                      "unit": "4px",
+                      "gutter": "12px",
+                      "sm": "8px",
+                      "xl": "32px",
+                      "margin": "16px",
+                      "xs": "4px",
+                      "md": "16px"
+              },
+              "fontFamily": {
+                      "data-mono": [
+                              "Inter"
+                      ],
+                      "headline-md": [
+                              "Inter"
+                      ],
+                      "body-sm": [
+                              "Inter"
+                      ],
+                      "body-md": [
+                              "Inter"
+                      ],
+                      "label-caps": [
+                              "Inter"
+                      ],
+                      "display": [
+                              "Inter"
+                      ]
+              },
+              "fontSize": {
+                      "data-mono": [
+                              "13px",
+                              {
+                                      "lineHeight": "18px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "18px",
+                              {
+                                      "lineHeight": "24px",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-sm": [
+                              "13px",
+                              {
+                                      "lineHeight": "18px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-caps": [
+                              "11px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "display": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "600"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .icon-fill {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md h-screen w-full overflow-hidden flex">
+<!-- SideNavBar -->
+<nav class="bg-surface dark:bg-inverse-surface fixed h-full w-[240px] left-0 top-0 border-r border-outline-variant dark:border-outline flex flex-col py-md z-50">
+<!-- Header -->
+<div class="px-md mb-xl">
+<h1 class="font-headline-md text-headline-md font-bold text-primary dark:text-on-primary">SignalPad Recovery</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-xs">v2.4.0-Stable</p>
+</div>
+<!-- Main Nav -->
+<div class="flex-1 flex flex-col gap-xs px-sm">
+<a class="flex items-center gap-sm px-sm py-sm text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-on-primary-container/5 transition-colors duration-150 rounded font-body-sm text-body-sm active:scale-[0.98] transition-transform" href="#">
+<span class="material-symbols-outlined text-[18px]">analytics</span>
+<span>Operations</span>
+</a>
+<a class="flex items-center gap-sm px-sm py-sm text-primary dark:text-primary-fixed border-l-2 border-primary dark:border-primary-fixed font-semibold bg-surface-container-high dark:bg-on-primary-container/10 transition-colors duration-150 rounded-r font-body-sm text-body-sm active:scale-[0.98] transition-transform" href="#">
+<span class="material-symbols-outlined text-[18px] icon-fill">edit_note</span>
+<span>Editor</span>
+</a>
+<a class="flex items-center gap-sm px-sm py-sm text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-on-primary-container/5 transition-colors duration-150 rounded font-body-sm text-body-sm active:scale-[0.98] transition-transform" href="#">
+<span class="material-symbols-outlined text-[18px]">settings</span>
+<span>Settings</span>
+</a>
+</div>
+<!-- Footer Nav -->
+<div class="px-sm mt-auto">
+<a class="flex items-center gap-sm px-sm py-sm text-on-surface-variant dark:text-outline-variant hover:bg-surface-container dark:hover:bg-on-primary-container/5 transition-colors duration-150 rounded font-body-sm text-body-sm active:scale-[0.98] transition-transform" href="#">
+<span class="material-symbols-outlined text-[18px]">cloud_done</span>
+<span>System Status</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Wrapper -->
+<div class="ml-[240px] w-[calc(100%-240px)] flex flex-col h-full bg-background overflow-hidden">
+<!-- TopAppBar -->
+<header class="bg-surface dark:bg-surface-dim docked full-width top-0 sticky z-40 border-b border-outline-variant dark:border-outline flex justify-between items-center w-full px-lg py-sm">
+<div class="flex items-center gap-lg">
+<!-- Navigation Links (Hidden on mobile, handled by SideNav on Desktop, keeping for structural fidelity if needed) -->
+<div class="hidden md:flex gap-md">
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed transition-colors pb-1" href="#">Operations</a>
+<a class="font-body-md text-body-md text-primary dark:text-primary-fixed font-bold border-b-2 border-primary pb-1" href="#">Editor</a>
+<a class="font-body-md text-body-md text-on-surface-variant dark:text-outline-variant hover:text-primary dark:hover:text-primary-fixed transition-colors pb-1" href="#">Settings</a>
+</div>
+</div>
+<div class="flex items-center gap-md">
+<!-- Search Bar placeholder -->
+<div class="relative hidden lg:block">
+<span class="material-symbols-outlined absolute left-sm top-1/2 -translate-y-1/2 text-on-surface-variant text-[16px]">search</span>
+<input class="pl-xl pr-sm py-xs bg-surface-container-low border border-outline-variant rounded font-body-sm text-body-sm text-on-surface w-[200px] focus:outline-none focus:border-secondary focus:ring-1 focus:ring-secondary/50" placeholder="Search..." type="text"/>
+</div>
+<div class="flex items-center gap-sm text-on-surface-variant">
+<button class="p-xs hover:text-primary transition-colors hover:bg-surface-container rounded"><span class="material-symbols-outlined">notifications</span></button>
+<button class="p-xs hover:text-primary transition-colors hover:bg-surface-container rounded"><span class="material-symbols-outlined">help_outline</span></button>
+</div>
+<button class="bg-primary text-on-primary font-body-sm text-body-sm font-semibold px-md py-[6px] rounded hover:bg-primary/90 transition-colors">Create Record</button>
+</div>
+</header>
+<!-- Main Scrollable Canvas -->
+<main class="flex-1 overflow-y-auto p-lg lg:p-xl flex justify-center">
+<div class="w-full max-w-[800px] flex flex-col gap-lg">
+<!-- Unsaved Changes Banner -->
+<div class="bg-surface-container-highest border border-outline-variant rounded-lg p-sm flex items-center gap-sm text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">info</span>
+<span>Unsaved Changes. Please save your progress.</span>
+</div>
+<!-- Form Card -->
+<div class="bg-on-primary border border-outline-variant rounded-lg p-lg shadow-sm">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-xl border-b border-outline-variant pb-sm">Record Editor</h2>
+<form class="flex flex-col gap-lg">
+<!-- Record Name -->
+<div class="flex flex-col gap-xs">
+<label class="font-body-sm text-body-sm font-bold text-on-surface" for="recordName">Record Name <span class="text-error">*</span></label>
+<input class="bg-surface-bright border border-outline-variant rounded px-sm py-[6px] font-body-sm text-body-sm text-on-surface focus:outline-none focus:border-secondary focus:ring-1 focus:ring-secondary/50" id="recordName" placeholder="Enter record identifier..." type="text" value="REC-2024-8891"/>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-lg">
+<!-- Type Dropdown -->
+<div class="flex flex-col gap-xs">
+<label class="font-body-sm text-body-sm font-bold text-on-surface" for="recordType">Type</label>
+<select class="bg-surface-bright border border-outline-variant rounded px-sm py-[6px] font-body-sm text-body-sm text-on-surface focus:outline-none focus:border-secondary focus:ring-1 focus:ring-secondary/50 appearance-none" id="recordType">
+<option>System Anomaly</option>
+<option>Data Corruption</option>
+<option selected="">Hardware Failure</option>
+<option>Network Latency</option>
+</select>
+</div>
+<!-- Priority Radio -->
+<div class="flex flex-col gap-xs">
+<span class="font-body-sm text-body-sm font-bold text-on-surface mb-xs">Priority</span>
+<div class="flex items-center gap-md">
+<label class="flex items-center gap-xs cursor-pointer">
+<input class="text-primary focus:ring-primary border-outline-variant" name="priority" type="radio" value="low"/>
+<span class="font-body-sm text-body-sm text-on-surface">Low</span>
+</label>
+<label class="flex items-center gap-xs cursor-pointer">
+<input class="text-primary focus:ring-primary border-outline-variant" name="priority" type="radio" value="medium"/>
+<span class="font-body-sm text-body-sm text-on-surface">Medium</span>
+</label>
+<label class="flex items-center gap-xs cursor-pointer">
+<input checked="" class="text-primary focus:ring-primary border-outline-variant" name="priority" type="radio" value="high"/>
+<span class="font-body-sm text-body-sm text-on-surface">High</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Description Textarea (Error State) -->
+<div class="flex flex-col gap-xs">
+<label class="font-body-sm text-body-sm font-bold text-error" for="recordDescription">Description</label>
+<div class="relative">
+<textarea class="w-full bg-surface-bright border border-error rounded px-sm py-[6px] font-body-sm text-body-sm text-on-surface focus:outline-none focus:border-error focus:ring-1 focus:ring-error/50 resize-y" id="recordDescription" rows="5">Failed.</textarea>
+<span class="material-symbols-outlined text-error text-[16px] absolute right-sm top-sm">error</span>
+</div>
+<p class="font-body-sm text-[11px] text-error mt-1 flex items-center gap-1">
+                                Description must be at least 10 characters.
+                            </p>
+</div>
+<!-- Actions -->
+<div class="flex items-center justify-end gap-sm mt-md pt-lg border-t border-outline-variant">
+<button class="bg-on-primary border border-outline-variant text-on-surface font-body-sm text-body-sm px-md py-[6px] rounded hover:bg-surface-container-low transition-colors" type="button">Cancel</button>
+<button class="bg-primary text-on-primary font-body-sm text-body-sm font-semibold px-md py-[6px] rounded hover:bg-primary/90 transition-colors flex items-center gap-xs" type="button">
+<span class="material-symbols-outlined text-[16px]">save</span>
+                                Save Record
+                            </button>
+</div>
+</form>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest dark:bg-surface-container-high border-t border-outline-variant dark:border-outline flex justify-between items-center px-lg py-xs fixed bottom-0 right-0 w-[calc(100%-240px)] z-30">
+<p class="font-data-mono text-data-mono text-secondary dark:text-secondary-fixed">© 2024 SignalPad Recovery. Clinical Data Systems.</p>
+<div class="flex items-center gap-md font-data-mono text-data-mono text-secondary dark:text-secondary-fixed">
+<a class="hover:underline transition-all" href="#">System: Saved to local storage</a>
+<a class="hover:underline transition-all flex items-center gap-xs" href="#"><span class="w-2 h-2 rounded-full bg-secondary block"></span> API Status: Online</a>
+</div>
+</footer>
+</div>
+</body></html>
